@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://askvedika.com/sitemap.xml
