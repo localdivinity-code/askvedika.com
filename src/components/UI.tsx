@@ -1,5 +1,6 @@
 // src/components/UI.tsx
 
+// Card component with Dharma theme styling
 export function Card({
   title,
   children,
@@ -19,6 +20,10 @@ export function Card({
   );
 }
 
+// Export lowercase alias for backward compatibility
+export const card = Card;
+
+// Button component with Dharma theme styling
 export function Button({
   children,
   className = '',
@@ -33,3 +38,6 @@ export function Button({
     </button>
   );
 }
+
+// Export lowercase alias for backward compatibility
+export const button = Button;
