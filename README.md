@@ -11,3 +11,5 @@ npm run dev
 - Keep `.github/workflows/deploy.yml` as-is.
 - Push to `main`. It builds to `dist` and publishes to Pages.
 - Custom domain is baked in via `public/CNAME` (askvedika.com).
+
+
